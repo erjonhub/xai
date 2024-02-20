@@ -3,6 +3,7 @@ from openai import OpenAI
 from config import chatgpt_key
 import pandas as pd
 
+
 index, questions_df, answers_df, model = get_data()
 
 
